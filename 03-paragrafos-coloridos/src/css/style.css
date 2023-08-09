@@ -1,0 +1,17 @@
+body{
+    background-color: var(--bg-container);
+    color: var(--text-color);
+}
+
+.container .wrapper p{
+    margin: 40px;
+    padding: 20px;
+}
+
+.container .wrapper .paragraph-standard{
+    background-color: var(--paragraph-standard);
+}
+
+.container .wrapper .paragraph-highlighted{
+    background-color: var(--paragraph-highlighted);
+}

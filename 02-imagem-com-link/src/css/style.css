@@ -1,0 +1,35 @@
+body{
+    background-color: var(--bg-container);
+    color: var(--text-color);
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .wrapper{
+    background-color: var( --bg-wrapper);
+    box-shadow: 3px 3px #594433;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+}
+
+.container .wrapper h1{
+    color: var(--bg-container);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container .wrapper img{
+    border-radius: 20px;
+}
+
+.container .wrapper p{
+    margin-top: 20px;
+}
